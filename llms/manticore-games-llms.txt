@@ -1,0 +1,26 @@
+# Manticore Games
+
+> Manticore Games is a San Mateo-based game developer and publisher, and the studio behind Core — a free, Unreal Engine-powered game-creation platform and metaverse where a global community of creators builds, publishes, and plays multiplayer games and experiences. Core exposes a Lua scripting API for programming game logic directly in the editor. It is not an HTTP/REST API; code runs inside the Core runtime. Manticore is backed by SoftBank Vision Fund.
+
+## Core Lua Scripting API
+
+- [Documentation](https://docs.coregames.com/): Core developer documentation home.
+- [API Reference](https://docs.coregames.com/api/): Namespaces (Chat, Storage, Leaderboards, Input, UI, VoiceChat, Game, World), 100+ types (Player, Weapon, Ability, Vehicle, Inventory, DamageableObject), interfaces, and enums.
+- [Getting Started](https://docs.coregames.com/tutorials/scripting_intro/): Scripting introduction and Lua basics tutorials.
+
+## Developer
+
+- [Creator Portal](https://www.coregames.com/creator): Build and publish games on Core.
+- [Core Academy](https://learn.coregames.com/): Learning platform for creators.
+- [Forums](https://forums.coregames.com/): Community discussion and news.
+- [Support](https://support.coregames.com/): Help center.
+
+## Company
+
+- [Manticore Games](https://www.manticoregames.com/): Company website.
+- [Core](https://www.coregames.com/): The Core game-creation platform and metaverse.
+- [Blog](https://medium.com/core-games): Core news and updates.
+
+## Notes
+
+- No HTTP/REST API, OpenAPI spec, webhooks, or first-party HTTP SDK packages are published; the developer surface is a Lua scripting API embedded in the Core editor runtime.
