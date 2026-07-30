@@ -1,8 +1,24 @@
 aid: manticore-games
 name: Manticore Games
-description: 'Manticore Games is a company surfaced as a portfolio company of softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Manticore Games is a San Mateo-based game developer and publisher, and
+  the studio behind Core — a free, Unreal Engine-powered game-creation platform and
+  metaverse where a global community of creators builds, publishes, and plays multiplayer
+  games and experiences. Core exposes a rich Lua scripting API (namespaces, types,
+  and events for Players, Weapons, Abilities, Storage, Leaderboards, Chat, UI, and
+  World) that lets creators program game logic directly in the editor. Manticore is
+  backed by SoftBank Vision Fund.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.coregames.com/img/background/og.jpg
 url: https://raw.githubusercontent.com/api-evangelist/manticore-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,61 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
-apis: []
+- Gaming
+- Game Development
+- Metaverse
+- Creator Platform
+- Lua
+- Scripting
+apis:
+- name: Core Lua Scripting API
+  description: 'The Core creator scripting API — a Lua-based developer surface for
+    programming multiplayer game logic in the Core editor. Organized into namespaces
+    (Chat, Storage, Leaderboards, Input, UI, VoiceChat, Game, World) and 100+ types
+    (Player, Weapon, Ability, Vehicle, Inventory, DamageableObject). Not an HTTP/REST
+    API — code runs inside the Core runtime.'
+  humanURL: https://docs.coregames.com/
+  tags:
+  - Gaming
+  - Lua
+  - Scripting
+  properties:
+  - type: Documentation
+    url: https://docs.coregames.com/
+  - type: APIReference
+    url: https://docs.coregames.com/api/
+  - type: GettingStarted
+    url: https://docs.coregames.com/tutorials/scripting_intro/
+common:
+- type: DomainSecurity
+  url: security/manticore-games-domain-security.yml
+- type: Website
+  url: https://www.manticoregames.com/
+- type: DeveloperPortal
+  url: https://www.coregames.com/creator
+- type: Documentation
+  url: https://docs.coregames.com/
+- type: APIReference
+  url: https://docs.coregames.com/api/
+- type: GettingStarted
+  url: https://docs.coregames.com/tutorials/scripting_intro/
+- type: Support
+  url: https://support.coregames.com/
+- type: Blog
+  url: https://medium.com/core-games
+- type: LLMsTxt
+  url: llms/manticore-games-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
