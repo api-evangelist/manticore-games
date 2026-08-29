@@ -7,6 +7,17 @@ description: 'Manticore Games is a San Mateo-based game developer and publisher,
   and events for Players, Weapons, Abilities, Storage, Leaderboards, Chat, UI, and
   World) that lets creators program game logic directly in the editor. Manticore is
   backed by SoftBank Vision Fund.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
